@@ -1,1 +1,1 @@
-# SSC0180-Eletr-nica
+# SSC0180-Eletrônica
