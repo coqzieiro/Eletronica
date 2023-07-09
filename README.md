@@ -66,7 +66,17 @@ void loop()
 }
 
 ```
+Peças necessárias:
+Arduino
+7 LEDs de qualquer tipo
+1 resistor de 10k 
+7 resistores de 220 
+Um pequeno botão de pressão
+Placa de prototipagem (breadboard)
+Alguns fios para a placa de prototipagem (breadboard)
+
 Circuito com TODAS as conexoes com o Arduino/ESP32:
+
 ![image](https://github.com/coqzieiro/SSC0180-Eletronica/assets/129008295/def71c95-d318-4088-9e58-1edb742e9f23)
 ![image](https://github.com/coqzieiro/SSC0180-Eletronica/assets/129008295/93d661a2-f6e3-49b7-a4a9-2945497139c6)
 
