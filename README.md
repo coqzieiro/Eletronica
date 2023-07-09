@@ -4,136 +4,67 @@ O projeto foi desenvolvido com o objetivo de construir um dado eletrônico que s
 
 Software:
 ```cpp
-// C++ code
-//
-int N_C3_BAmero = 0;
+int pinLeds1 = 10;
+int pinLeds2 = 9;
+int pinLeds3 = 7;
+int pinLed4 = 8;
+int buttonPin = 6;
+int buttonState;
+long ran;
+int time = 2000;
 
-int numero = 0;
-
-void setup()
+void setup ()
 {
-  pinMode(9, INPUT);
-  pinMode(2, OUTPUT);
-  pinMode(3, OUTPUT);
-  pinMode(5, OUTPUT);
-  pinMode(4, OUTPUT);
-  pinMode(8, OUTPUT);
-  pinMode(7, OUTPUT);
-  pinMode(6, OUTPUT);
+  pinMode (pinLeds1, OUTPUT);
+  pinMode (pinLeds2, OUTPUT);
+  pinMode (pinLeds3, OUTPUT);
+  pinMode (pinLed4, OUTPUT);
+  pinMode (buttonPin, INPUT);
+  randomSeed(analogRead(0));
 }
 
 void loop()
 {
-  // Quando aperta o botão, Leds ligam alternadamente
-  while (digitalRead(9) == HIGH) {
-    // Cada LED liga e desliga o anterior.
-    digitalWrite(2, HIGH);
-    delay(100); // Wait for 100 millisecond(s)
-    digitalWrite(3, HIGH);
-    delay(100); // Wait for 100 millisecond(s)
-    digitalWrite(2, LOW);
-    digitalWrite(5, HIGH);
-    delay(100); // Wait for 100 millisecond(s)
-    digitalWrite(3, LOW);
-    digitalWrite(4, HIGH);
-    delay(100); // Wait for 100 millisecond(s)
-    digitalWrite(5, LOW);
-    digitalWrite(8, HIGH);
-    delay(100); // Wait for 100 millisecond(s)
-    digitalWrite(4, LOW);
-    digitalWrite(7, HIGH);
-    delay(100); // Wait for 100 millisecond(s)
-    digitalWrite(8, LOW);
-    digitalWrite(6, HIGH);
-    delay(100); // Wait for 100 millisecond(s)
-    digitalWrite(7, LOW);
-    delay(100); // Wait for 100 millisecond(s)
-    digitalWrite(6, LOW);
-    delay(100); // Wait for 100 millisecond(s)
-    // Quando chega no último, todos começam a ligar.
-    digitalWrite(6, HIGH);
-    delay(100); // Wait for 100 millisecond(s)
-    digitalWrite(7, HIGH);
-    delay(100); // Wait for 100 millisecond(s)
-    digitalWrite(8, HIGH);
-    delay(100); // Wait for 100 millisecond(s)
-    digitalWrite(4, HIGH);
-    delay(100); // Wait for 100 millisecond(s)
-    digitalWrite(5, HIGH);
-    delay(100); // Wait for 100 millisecond(s)
-    digitalWrite(3, HIGH);
-    delay(100); // Wait for 100 millisecond(s)
-    digitalWrite(2, HIGH);
-    delay(300); // Wait for 300 millisecond(s)
-    // Todos desligam.
-    digitalWrite(2, LOW);
-    digitalWrite(3, LOW);
-    digitalWrite(4, LOW);
-    digitalWrite(5, LOW);
-    digitalWrite(6, LOW);
-    digitalWrite(7, LOW);
-    digitalWrite(8, LOW);
-    delay(500); // Wait for 500 millisecond(s)
-    // Sorteia o número
-    numero = random(1, 6 + 1);
+  buttonState = digitalRead(buttonPin);
+  if (buttonState == HIGH){
+    ran = random(1, 7);
+    if (ran == 1){
+      digitalWrite (pinLed4, HIGH);
+      delay (time);
+    }
+    if (ran == 2){
+      digitalWrite (pinLeds1, HIGH);
+      delay (time);
+    }
+    if (ran == 3){
+      digitalWrite (pinLeds3, HIGH);
+      digitalWrite (pinLed4, HIGH);
+      delay (time);
+    }
+    if (ran == 4){
+      digitalWrite (pinLeds1, HIGH);
+      digitalWrite (pinLeds3, HIGH);
+      delay (time);
+    }
+    if (ran == 5){
+      digitalWrite (pinLeds1, HIGH);
+      digitalWrite (pinLeds3, HIGH);
+      digitalWrite (pinLed4, HIGH);
+      delay (time);
+   }
+   if (ran == 6){
+      digitalWrite (pinLeds1, HIGH);
+      digitalWrite (pinLeds2, HIGH);
+      digitalWrite (pinLeds3, HIGH);
+      delay (time);
+   }
   }
-  // Dependendo do número sorteado, liga os LEDs
-  // correspondentes.
-  if (numero == 1) {
-    digitalWrite(2, LOW);
-    digitalWrite(3, LOW);
-    digitalWrite(4, HIGH);
-    digitalWrite(5, LOW);
-    digitalWrite(6, LOW);
-    digitalWrite(7, LOW);
-    digitalWrite(8, LOW);
-  }
-  if (numero == 2) {
-    digitalWrite(2, HIGH);
-    digitalWrite(3, LOW);
-    digitalWrite(4, LOW);
-    digitalWrite(5, LOW);
-    digitalWrite(6, HIGH);
-    digitalWrite(7, LOW);
-    digitalWrite(8, LOW);
-  }
-  if (numero == 3) {
-    digitalWrite(2, HIGH);
-    digitalWrite(3, LOW);
-    digitalWrite(4, HIGH);
-    digitalWrite(5, LOW);
-    digitalWrite(6, HIGH);
-    digitalWrite(7, LOW);
-    digitalWrite(8, LOW);
-  }
-  if (numero == 4) {
-    digitalWrite(2, HIGH);
-    digitalWrite(3, LOW);
-    digitalWrite(4, LOW);
-    digitalWrite(5, HIGH);
-    digitalWrite(6, HIGH);
-    digitalWrite(7, LOW);
-    digitalWrite(8, HIGH);
-  }
-  if (numero == 5) {
-    digitalWrite(2, HIGH);
-    digitalWrite(3, LOW);
-    digitalWrite(4, HIGH);
-    digitalWrite(5, HIGH);
-    digitalWrite(6, HIGH);
-    digitalWrite(7, LOW);
-    digitalWrite(8, HIGH);
-  }
-  if (numero == 6) {
-    digitalWrite(2, HIGH);
-    digitalWrite(3, HIGH);
-    digitalWrite(4, LOW);
-    digitalWrite(5, HIGH);
-    digitalWrite(6, HIGH);
-    digitalWrite(7, HIGH);
-    digitalWrite(8, HIGH);
-  }
+  digitalWrite (pinLeds1, LOW);
+  digitalWrite (pinLeds2, LOW);
+  digitalWrite (pinLeds3, LOW);
+  digitalWrite (pinLed4, LOW);
 }
+
 ```
 Circuito com TODAS as conexoes com o Arduino/ESP32:
 
