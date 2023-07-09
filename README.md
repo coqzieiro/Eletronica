@@ -95,6 +95,8 @@ Segue abaixo, as imagens que representam o funcionamento do dado eletrônico com
 
 Circuito completo (TinkerCAD):
 
+![image](https://github.com/coqzieiro/SSC0180-Eletronica/assets/129008295/b2378904-44b4-4cdc-ac6d-9afe407cfc59)
+
 Circuito na protoboard:
 
 
