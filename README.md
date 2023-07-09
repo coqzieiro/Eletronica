@@ -67,6 +67,9 @@ void loop()
 
 ```
 Circuito com TODAS as conexoes com o Arduino/ESP32:
+![image](https://github.com/coqzieiro/SSC0180-Eletronica/assets/129008295/def71c95-d318-4088-9e58-1edb742e9f23)
+![image](https://github.com/coqzieiro/SSC0180-Eletronica/assets/129008295/93d661a2-f6e3-49b7-a4a9-2945497139c6)
+
 
 Imagens do Projeto:
 
