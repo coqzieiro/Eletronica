@@ -110,3 +110,9 @@ A placa de arduino foi usada como meio para controlar o funcionamento da tensão
 Segue abaixo o vídeo do projeto em funcionamento. Perceba que a cada vez que o botão é pressionado os LEDS acendem de maneira diferente.
 
 https://github.com/coqzieiro/SSC0180-Eletronica/assets/129008295/c80bf15b-5357-403e-a236-c5eecd4eabc7
+
+### Resposáveis
+- Felipe da Costa Coqueiro
+- Fernando Alee Suaiden
+- Guilherme Torquato
+- Adhemar Molon Neto
