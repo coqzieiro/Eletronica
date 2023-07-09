@@ -97,6 +97,13 @@ O projeto esquemático no TinkerCAD nos permitiu modelar o funcionamento do Dado
 
 ![image](https://github.com/coqzieiro/SSC0180-Eletronica/assets/129008295/b2378904-44b4-4cdc-ac6d-9afe407cfc59)
 
+- Cálculos:
+Escolhemos o resistor de 220Ω por permitir o funcionamento dos LEDs perto de 20mA, calculando a corrente conseguimos:
+
+$$ I = \frac{V}{R} $$
+
+$$ 22mA \approx \frac{5V}{220Ω} $$
+
 - Circuito na protoboard:
 Montou-se o circuito na protoboard usando o modelo do TinkerCAD e verificando se os valores de tensão e corrente estavam compatíveis com a teoria.
 
