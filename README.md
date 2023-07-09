@@ -80,6 +80,7 @@ void loop()
 | 1 |[Resistor 10kΩ](https://www.baudaeletronica.com.br/produto/resistor-10k-5-18w.html)| 10000Ω 1/8W | R$ 0,06 |
 | 7     | [Resistor 220 Ω](https://loja.fabricadebolso.com.br/10-x-resistor-220-ohms-14-w-eletronica-resistencia-220r)        | 220Ω 1/4W     | R$ 0,15  |
 | 1     | [Botão de Pressão](https://www.baudaeletronica.com.br/produto/chave-tactil-6x6x5mm-4-terminais.html)        | 6x6x5mm 4 Terminais  | R$ 0,25    |
+    
 Valor Total: R$ 3, 25
 
 
