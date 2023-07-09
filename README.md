@@ -1,8 +1,14 @@
 # SSC0180-Eletrônica
 ## Projeto: Dado Eletrônico
-O projeto foi desenvolvido com o objetivo de construir um dado eletrônico que sorteia números aleatórios num intervalo de 1 à 6. Foi utilizado a IDE do Arduino UNO para desenvolver o código e a plataforma do Tinkercad para idealizar o projeto na prática.
+O projeto foi desenvolvido com o objetivo de construir um dado eletrônico que sorteia números aleatórios num intervalo de 1 à 6.
 
-Software:
+#### Teoria
+
+
+
+### Software: IDE Arduino
+
+Código do projeto: 
 ```cpp
 int pinLeds1 = 10;
 int pinLeds2 = 9;
@@ -66,21 +72,31 @@ void loop()
 }
 
 ```
-Peças necessárias:
 Arduino
-7 LEDs de qualquer tipo
-1 resistor de 10k 
-7 resistores de 220 
-Um pequeno botão de pressão
-Placa de prototipagem (breadboard)
-Alguns fios para a placa de prototipagem (breadboard)
+7x LEDs de qualquer tipo (eu uso LEDs vermelhos de 5mm)
+1 Resistor de 10k (marrom preto laranja)
+7x Resistores de 220 ou 330 (vermelho vermelho marrom ou laranja laranja marrom)
+1 Pequeno botão de pressão
+Placa de ensaio (breadboard)
+Alguns fios para a placa de ensaio
 
-Circuito com TODAS as conexoes com o Arduino/ESP32:
+### Componentes Eletrônicos
+| Quantidade     | Componentes | Especificações | Valor |
+| ---      | ---       | ---      | ---     |
+| 7 | [LED](https://produto.mercadolivre.com.br/MLB-2601528464-transformador-trafo-1212v-500ma-bivolt-_JM)  | 2V/20mA     |  R$ 0,27   |
+| 1 |[Resistor 10kΩ](https://www.baudaeletronica.com.br/produto/resistor-10k-5-18w.html)| 10000Ω 1/8W | R$ 12,25 |
+| 7     | [Resistor 220 Ω](https://loja.fabricadebolso.com.br/10-x-resistor-220-ohms-14-w-eletronica-resistencia-220r)        | 220Ω 1/4W     | R$ 1,95  |
+| 1     | [Botão de Pressão]((https://www.baudaeletronica.com.br/produto/chave-tactil-6x6x5mm-4-terminais.))        | 6x6x5mm 4 Terminais  | R$ 0,25    |
 
-![image](https://github.com/coqzieiro/SSC0180-Eletronica/assets/129008295/def71c95-d318-4088-9e58-1edb742e9f23)
-![image](https://github.com/coqzieiro/SSC0180-Eletronica/assets/129008295/93d661a2-f6e3-49b7-a4a9-2945497139c6)
+
+### Imagens
+
+Segue abaixo, as imagens que representam o funcionamento do dado eletrônico com todas as conexões:
+
+Circuito completo (TinkerCAD):
+
+Circuito na protoboard:
 
 
-Imagens do Projeto:
+#### Vídeo Funcionando
 
-Incluir um VIDEO mostrando o Projeto funcionando e/ou simulando, e explicando como calculou os valores dos componentes periféricos (Upa o vídeo no Youtube ou google drive e poe um link no Readme do teu Github/gitlab).
