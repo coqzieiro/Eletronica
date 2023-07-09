@@ -86,19 +86,27 @@ void loop()
 
 Segue abaixo, as imagens que representam o funcionamento do dado eletrônico com todas as conexões:
 
-Circuito completo (TinkerCAD): 
-- [Link Circuito](https://www.tinkercad.com/things/570NiqwNX0R-brave-allis-sango/editel?tenant=circuits)
-- [Projeto .BDR](https://drive.google.com/drive/folders/1SZlMijGtk7tgy2nftMfKCPZPz4bhTYNO?usp=sharing)
+- Circuito completo (TinkerCAD): 
+O projeto esquemático no TinkerCAD nos permitiu modelar o funcionamento do Dado Eletrônico e prever possíveis erros durante a montagem.
+
+[Link Circuito](https://www.tinkercad.com/things/570NiqwNX0R-brave-allis-sango/editel?tenant=circuits)
+  
+[Projeto .BDR](https://drive.google.com/drive/folders/1SZlMijGtk7tgy2nftMfKCPZPz4bhTYNO?usp=sharing)
 
 ![image](https://github.com/coqzieiro/SSC0180-Eletronica/assets/129008295/b2378904-44b4-4cdc-ac6d-9afe407cfc59)
 
-Circuito na protoboard:
+- Circuito na protoboard:
+Montou-se o circuito na protoboard usando o modelo do TinkerCAD e verificando se os valores de tensão e corrente estavam compatíveis com a teoria.
 
 ![WhatsApp Image 2023-07-09 at 12 51 49 (2)](https://github.com/coqzieiro/SSC0180-Eletronica/assets/129008295/22842ad0-7525-43b6-b4e9-3cfb37687a07)
 
-Placa de Arduino UNO:
+- Placa de Arduino UNO:
+A placa de arduino foi usada como meio para controlar o funcionamento da tensão e da corrente que passam pelos resistores e LEDS.
 
 ![WhatsApp Image 2023-07-09 at 12 51 49 (1)](https://github.com/coqzieiro/SSC0180-Eletronica/assets/129008295/4c2fadf5-6738-4cde-9b9b-1570ab5276e6)
 
 #### Vídeo Funcionando
 
+Segue abaixo o vídeo do projeto em funcionamento. Perceba que a cada vez que o botão é pressionado os LEDS acendem de maneira diferente.
+
+https://github.com/coqzieiro/SSC0180-Eletronica/assets/129008295/c80bf15b-5357-403e-a236-c5eecd4eabc7
