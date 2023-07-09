@@ -72,13 +72,6 @@ void loop()
 }
 
 ```
-Arduino
-7x LEDs de qualquer tipo (eu uso LEDs vermelhos de 5mm)
-1 Resistor de 10k (marrom preto laranja)
-7x Resistores de 220 ou 330 (vermelho vermelho marrom ou laranja laranja marrom)
-1 Pequeno botão de pressão
-Placa de ensaio (breadboard)
-Alguns fios para a placa de ensaio
 
 ### Componentes Eletrônicos
 | Quantidade     | Componentes | Especificações | Valor |
@@ -93,7 +86,9 @@ Alguns fios para a placa de ensaio
 
 Segue abaixo, as imagens que representam o funcionamento do dado eletrônico com todas as conexões:
 
-Circuito completo (TinkerCAD):
+Circuito completo (TinkerCAD): 
+- [Link Circuito](https://www.tinkercad.com/things/570NiqwNX0R-brave-allis-sango/editel?tenant=circuits)
+- [Projeto .BDR](https://drive.google.com/drive/folders/1SZlMijGtk7tgy2nftMfKCPZPz4bhTYNO?usp=sharing)
 
 ![image](https://github.com/coqzieiro/SSC0180-Eletronica/assets/129008295/b2378904-44b4-4cdc-ac6d-9afe407cfc59)
 
