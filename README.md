@@ -99,6 +99,11 @@ Circuito completo (TinkerCAD):
 
 Circuito na protoboard:
 
+![WhatsApp Image 2023-07-09 at 12 51 49 (2)](https://github.com/coqzieiro/SSC0180-Eletronica/assets/129008295/22842ad0-7525-43b6-b4e9-3cfb37687a07)
+
+Placa de Arduino UNO:
+
+![WhatsApp Image 2023-07-09 at 12 51 49 (1)](https://github.com/coqzieiro/SSC0180-Eletronica/assets/129008295/4c2fadf5-6738-4cde-9b9b-1570ab5276e6)
 
 #### Vídeo Funcionando
 
