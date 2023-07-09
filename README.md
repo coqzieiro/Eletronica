@@ -84,9 +84,9 @@ Alguns fios para a placa de ensaio
 | Quantidade     | Componentes | Especificações | Valor |
 | ---      | ---       | ---      | ---     |
 | 7 | [LED](https://produto.mercadolivre.com.br/MLB-2601528464-transformador-trafo-1212v-500ma-bivolt-_JM)  | 2V/20mA     |  R$ 0,27   |
-| 1 |[Resistor 10kΩ](https://www.baudaeletronica.com.br/produto/resistor-10k-5-18w.html)| 10000Ω 1/8W | R$ 12,25 |
-| 7     | [Resistor 220 Ω](https://loja.fabricadebolso.com.br/10-x-resistor-220-ohms-14-w-eletronica-resistencia-220r)        | 220Ω 1/4W     | R$ 1,95  |
-| 1     | [Botão de Pressão]((https://www.baudaeletronica.com.br/produto/chave-tactil-6x6x5mm-4-terminais.))        | 6x6x5mm 4 Terminais  | R$ 0,25    |
+| 1 |[Resistor 10kΩ](https://www.baudaeletronica.com.br/produto/resistor-10k-5-18w.html)| 10000Ω 1/8W | R$ 0,06 |
+| 7     | [Resistor 220 Ω](https://loja.fabricadebolso.com.br/10-x-resistor-220-ohms-14-w-eletronica-resistencia-220r)        | 220Ω 1/4W     | R$ 0,15  |
+| 1     | [Botão de Pressão](https://www.baudaeletronica.com.br/produto/chave-tactil-6x6x5mm-4-terminais.html)        | 6x6x5mm 4 Terminais  | R$ 0,25    |
 
 
 ### Imagens
