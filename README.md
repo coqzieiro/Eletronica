@@ -31,7 +31,7 @@ void loop()
   if (buttonState == HIGH){
     ran = random(1, 7);
     if (ran == 1){
-      digitalWrite (pinLed4, HIGH);
+      digitalWrite (pinLeds3, HIGH);
       delay (time);
     }
     if (ran == 2){
@@ -45,7 +45,7 @@ void loop()
     }
     if (ran == 4){
       digitalWrite (pinLeds1, HIGH);
-      digitalWrite (pinLeds3, HIGH);
+      digitalWrite (pinLed4, HIGH);
       delay (time);
     }
     if (ran == 5){
@@ -57,7 +57,7 @@ void loop()
    if (ran == 6){
       digitalWrite (pinLeds1, HIGH);
       digitalWrite (pinLeds2, HIGH);
-      digitalWrite (pinLeds3, HIGH);
+      digitalWrite (pinLed4, HIGH);
       delay (time);
    }
   }
