@@ -1,4 +1,4 @@
-# SSC0180-Eletrônica
+# Eletrônica
 ## Projeto: Dado Eletrônico
 O projeto foi desenvolvido com o objetivo de construir um dado eletrônico que sorteia números aleatórios num intervalo de 1 à 6.
 
