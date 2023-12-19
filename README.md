@@ -110,12 +110,6 @@ A placa de arduino foi usada como meio para controlar o funcionamento da tensão
 
 ![WhatsApp Image 2023-07-09 at 12 51 49 (1)](https://github.com/coqzieiro/SSC0180-Eletronica/assets/129008295/4c2fadf5-6738-4cde-9b9b-1570ab5276e6)
 
-#### Vídeo Funcionando
-
-Segue abaixo o vídeo do projeto em funcionamento. Perceba que a cada vez que o botão é pressionado os LEDS acendem de maneira diferente.
-
-https://github.com/coqzieiro/SSC0180-Eletronica/assets/129008295/c80bf15b-5357-403e-a236-c5eecd4eabc7
-
 ### Resposáveis
 - Felipe da Costa Coqueiro
 - Fernando Alee Suaiden
